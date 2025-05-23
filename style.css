@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header .banner {
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.galeria .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.recursos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.recursos li {
+    margin: 10px 0;
+}
+
+.recursos a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-top: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
